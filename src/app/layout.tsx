@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Imagery",
-  description: "A scrolling image gallery",
+  title: "From hubby:",
+  description: "Our journey thus far.",
 };
 
 export default function RootLayout({

@@ -17,14 +17,14 @@ export const DisplayCarousel = ({
     onChange,
 }: DisplayCarouselProps) => {
     return (
-      <div className="relative w-full">
+      <div className="relative w-full h-full">
         <Carousel slide={false} indicators={false} onSlideChange={(index) => onChange(items[index].associatedDay)}>
           {items.map((item, idx) => item.isImage ? (
             <div className="flex h-full items-center justify-center" key={idx}>
-              <Image src={item.content} layout="fill" objectFit="cover" alt='' />
+              <Image src={item.content} fill objectFit='contain' alt=""/>
             </div>
           ) : (
-            <div className="flex h-full items-center justify-center bg-slate-800 text-white" key={idx}>
+            <div className="flex h-full items-center justify-center bg-zinc-700 text-white text-2xl" key={idx}>
               {item.content}
             </div>
           ))}

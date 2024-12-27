@@ -13,7 +13,7 @@ const get8BitRep = (day: number) => {
 }
 
 export const TopCounter = ({day}: TopCounterProps) => (
-    <nav className="bg-slate-900 border-slate-900">
+    <nav className="bg-zinc-900 border-gray-900">
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
             <p className="font-bold text-slate-300 text-3xl">
                 {`Day ${day}`}
