@@ -3,7 +3,7 @@ import { DisplayCarouselItem } from "./DisplayCarousel";
 export const Items: DisplayCarouselItem[] = [
     {
         isImage: false,
-        content: "So it beings, the 0th day of a new love. With a nerve-racking question and the best \"Yes\" I've ever heard.",
+        content: "So it begins, the 0th day of a new love. With a nerve-racking question and the best \"Yes\" I've ever heard.",
         associatedDay: 0,
     },
     {
